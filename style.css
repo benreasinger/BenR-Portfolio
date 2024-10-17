@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; /* Added padding to prevent cutting off */
+    width: 100%; 
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.title {
+    font-size: 1.5em; /* Adjust font size */
+    margin: 0; 
+    padding-left: 10px; /* Ensure it's not flush with the left edge */
+    word-wrap: break-word;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Add spacing between buttons */
+    padding-right: 10px; /* Ensure buttons don't touch the right edge */
+}
+
+.button {
+    max-width: 100%; 
+    height: auto;
+    max-height: 40px;
+    color: white
+}
+
+/* Container for Main Content */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    max-width: 1200px;
+    justify-content: center; 
+    padding: 10px; /* Added padding */
+}
+
+/* Left and Right Sections */
+.left{
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+.right {
+    flex: 3;
+    margin: 15px;
+}
+
+/* Language Circles */
+.language-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* background-color: #333; */
+    width: 75px;
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+    font-size: 0.7em;
+}
+
+.javascript { background-color: #FFA500; } /* Orange */
+.alasql { background-color: #FF6347; } /* Dull Red */
+.html { background-color: #4CAF50; } /* Dull Green */
+.css { background-color: #FFA500; } /* Orange */
+.rivescript { background-color: #4CAF50; } /* Dull Green */
+
+/* Skill Section */
+.skill-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+.key{
+    /* background-color: #333; */
+    width: 150px;
+}
+/* Footer */
+
+.green{
+    color: #4caf50;
+}
+.red{
+    color: #FF6347;
+}
+.orange{
+    color: #FFA500;
+}
