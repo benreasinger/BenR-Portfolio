@@ -1,7 +1,6 @@
 
 var delayInMilliseconds = 10000; //10 second
 
-
 setInterval(function() {
         const image = document.getElementById("toggle-img");
         if (image.src.includes("Photo1.jpg")) {

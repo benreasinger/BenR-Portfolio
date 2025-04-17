@@ -10,7 +10,6 @@ Papa.parse("../assets/imdb_top_1000.csv", {
 		displayMovies(db.exec("SELECT * FROM Movies ORDER BY Series_Title"));
 	}
 });
-
 function displayMovies(movies) {
 	document.querySelector('#results').innerHTML = "";
 	window.scrollTo(0, 0);
