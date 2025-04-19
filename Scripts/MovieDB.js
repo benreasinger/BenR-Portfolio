@@ -1,5 +1,4 @@
 var db = new alasql.Database();
-
 Papa.parse("../assets/imdb_top_1000.csv", {
 	download: true,
 	dynamicTyping: true,
