@@ -107,6 +107,7 @@ body {
 .html { background-color: #4CAF50; }
 .css { background-color: #FFA500; }
 .rivescript { background-color: #4CAF50; }
+.python { background-color: #FF6347; }
 
 .skill-container {
     display: flex;
