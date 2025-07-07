@@ -15,8 +15,6 @@ setInterval(function() {
             image.src = "../assets/Photo5.jpg";
          }
          else if(image.src.includes("Photo5.jpg")){
-            image.src = "../assets/Photo1.jpg";
+            image.src = "../assets/Photo1.JPG";
          }
 }, delayInMilliseconds);
-
-
