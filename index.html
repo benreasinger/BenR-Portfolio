@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ben Reasinger portfolio site featuring software projects, experience, and skills.">
+  <title>Ben Reasinger | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#top">Ben Reasinger</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#project">Project</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Hope College student · communications + computer science</p>
+        <h1>Hey, I’m Ben.<br>I like building software that actually helps people.</h1>
+        <p class="hero-text">
+          I’m really interested in web development, real-time applications, and making messy processes easier to manage.
+          Most of my favorite work comes from real problems, real users, and figuring out how to make things run smoother.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#project">See my main project</a>
+          <a class="button secondary" href="mailto:reasingerben@gmail.com">Email me</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>4</strong>
+            <span>major versions</span>
+          </div>
+          <div>
+            <strong>50+</strong>
+            <span>volunteers using it</span>
+          </div>
+          <div>
+            <strong>250+</strong>
+            <span>vehicles per event</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-photo-card">
+        <img src="assets/Photo1.JPG" alt="Ben Reasinger portrait">
+        <div class="hero-note">
+          <strong>Current focus</strong>
+          <p>Real-time workflow tools, frontend development, and projects that solve actual day-to-day problems.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-heading">
+        <p class="section-label">About me</p>
+        <h2>A little more about who I am.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>
+            I’m Ben Reasinger, a student at Hope College from Indianapolis. I switched from being a full Computer Science major to Communications with a Computer Science minor because I realized I like both sides of the work: the technical side and the people side.
+          </p>
+          <p>
+            I enjoy building things that people can actually use, getting feedback, and improving projects over time instead of just making something once and leaving it there.
+          </p>
+          <p>
+            Outside of coding, I play D1 Hockey at Hope College. I enjoy cooking, hiking, and music. My favorite artist is Sam Barber.
+          </p>
+        </div>
+        <div class="about-cards">
+          <article class="mini-card">
+            <h3>What I like building</h3>
+            <p>Web apps, real-time tools, workflow systems, and projects with a clear purpose.</p>
+          </article>
+          <article class="mini-card">
+            <h3>How I work</h3>
+            <p>Gather feedback, test it in real situations, fix what breaks, and keep improving it.</p>
+          </article>
+          <article class="mini-card">
+            <h3>What matters to me</h3>
+            <p>Useful software, clean interfaces, and making tools that are easy for other people to use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="project">
+      <div class="shell">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="section-label">Featured project</p>
+            <h2>Christmas Store Parking & Workflow App</h2>
+          </div>
+          <p class="section-intro">
+            This is the project I’m most proud of. It started as a simple way to track vehicles and turned into a real-time workflow system used across multiple volunteer stations.
+          </p>
+        </div>
+
+        <div class="feature-layout">
+          <div class="project-shot-card">
+            <img src="assets/parking-management.png" alt="Screenshot of the parking management application">
+          </div>
+
+          <div class="project-info-card">
+            <p>
+              I built this app to help a church Christmas Store event run more smoothly. Volunteers check families in,
+              track where they are in the process, assign shoppers, manage gift wrapping, and coordinate final delivery back to the car.
+            </p>
+
+            <div class="tag-row">
+              <span>HTML</span>
+              <span>SCSS / CSS</span>
+              <span>JavaScript</span>
+              <span>Firebase</span>
+              <span>Real-time sync</span>
+            </div>
+
+            <ul class="feature-list">
+              <li>Built and maintained the entire project independently in my free time.</li>
+              <li>Supports 50+ volunteers and events with 250+ vehicles.</li>
+              <li>Uses Firebase for live, multi-user updates across devices with no refreshing.</li>
+              <li>Tracks the full workflow from check-in to registration, shopping, wrapping, and reindeer delivery.</li>
+              <li>Version 4 added bag tracking, wrapping station assignments, auth, database rules, and better stats.</li>
+              <li>Created four major versions based on feedback from church leaders and volunteers.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="experience">
+      <div class="section-heading">
+        <p class="section-label">Experience</p>
+        <h2>What I’ve been working on.</h2>
+      </div>
+
+      <div class="experience-stack">
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>Sole Developer</h3>
+              <p>Christmas Store Event App</p>
+            </div>
+            <span>Ongoing</span>
+          </div>
+          <ul>
+            <li>Designed, built, tested, and maintained a real-time event workflow app from the ground up.</li>
+            <li>Worked with 11 church leaders and volunteers to gather ideas, improve workflows, and shape new releases.</li>
+            <li>Resolved 20+ user-reported issues and supported four events with zero reported event-day downtime.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3>IT Intern</h3>
+              <p>Linde Advanced Material Technologies</p>
+            </div>
+            <span>Internship</span>
+          </div>
+          <ul>
+            <li>Troubleshot end-user issues in Oracle E-Business Suite and quality control systems.</li>
+            <li>Helped run user acceptance testing for Enginatics Supply Chain Hub across finance, accounting, planning, and manufacturing.</li>
+            <li>Worked with developers and analysts to resolve inventory, item, and financial data issues inside Oracle EBS.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="section-label">Skills</p>
+          <h2>Stuff I use.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Languages & Frontend</h3>
+            <p>HTML, CSS, SCSS, JavaScript, responsive design, UI updates, and interface cleanup.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Platforms & Tools</h3>
+            <p>Firebase, Oracle E-Business Suite, Enginatics Supply Chain Hub, GitHub, database rules, authentication.</p>
+          </article>
+          <article class="skill-card">
+            <h3>Ways I work</h3>
+            <p>Requirements gathering, user acceptance testing, iterative releases, debugging, AI-assisted development.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="contact">
+      <div class="contact-box">
+        <p class="section-label">Contact</p>
+        <h2>Want to reach out?</h2>
+        <p>
+          Feel free to email me if you want to talk about a project, internship, or anything I’ve worked on.
+        </p>
+        <div class="contact-links">
+          <a class="button primary" href="mailto:reasingerben@gmail.com">reasingerben@gmail.com</a>
+          <a class="button secondary" href="https://github.com/benreasinger" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span>Built by Ben Reasinger</span>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="Scripts/script.js"></script>
+</body>
+</html>
